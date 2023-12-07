@@ -3,7 +3,6 @@ function startTime() {
     var hr = today.getHours();
     var min = today.getMinutes();
     var sec = today.getSeconds();
-    //Add a zero in front of numbers<10
     min = checkTime(min);
     sec = checkTime(sec);
     document.getElementById("clock").innerHTML = hr + " : " + min + " : " + sec;
